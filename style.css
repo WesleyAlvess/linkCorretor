@@ -137,6 +137,9 @@ p {
   justify-content: center;
 
   margin-top: 40px;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  border: none;
 }
 
 #btn-about i {
