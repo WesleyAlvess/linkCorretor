@@ -150,9 +150,8 @@ p {
   font-size: 41px;
 }
 
-#btn-about button:hover {
-  animation: moveButton .8s ease-in-out;
-  background-color: #192dc2;
+#btn-about button.animate {
+  animation: moveButton 1s ease-in-out;
 }
 
 @keyframes moveButton {
