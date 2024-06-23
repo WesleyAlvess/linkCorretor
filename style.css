@@ -124,6 +124,48 @@ p {
   font-size: 12px;
 }
 
+/* buttom chamada about */
+
+
+#btn-about button{
+  width: 50px;
+  height: 50px;
+  border-radius: 90%;
+  transition: .3s all ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 40px;
+}
+
+#btn-about i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 41px;
+}
+
+#btn-about button:hover {
+  animation: moveButton .8s infinite ease-in-out;
+  background-color: #192dc2;
+}
+
+@keyframes moveButton {
+  0% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(20px);
+  }
+  100% {
+      transform: translateY(0);
+  }
+}
+
+
+
 /* About */
 
 .box-sobre {
