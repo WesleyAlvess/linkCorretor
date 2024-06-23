@@ -148,7 +148,7 @@ p {
 }
 
 #btn-about button:hover {
-  animation: moveButton .8s infinite ease-in-out;
+  animation: moveButton .8s ease-in-out;
   background-color: #192dc2;
 }
 
